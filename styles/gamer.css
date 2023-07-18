@@ -12,6 +12,12 @@
     color: #534C64;
 }
 
+.section-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #0B0223;
+}
+
 /* body styles */
 body {
     margin: 0;
