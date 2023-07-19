@@ -157,6 +157,27 @@ main{
     margin-top: 5px;
 }
 
+/* play instantly section */
+.play-instantly{
+    margin-top: 120px;
+    display: flex;
+    gap: 265px;
+}
+
+.play-instantly-content{
+    padding: 24px;
+    margin-bottom: 20px;
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.my-talking-badge{
+    border-radius: 8px;
+    border: 10px solid #FFF;
+    width: 318px;
+}
+
 /* action games styles */
 
 .action-games-container{
