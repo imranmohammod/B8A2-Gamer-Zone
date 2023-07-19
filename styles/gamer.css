@@ -157,6 +157,25 @@ main{
     margin-top: 5px;
 }
 
+/* action games styles */
+
+.action-games-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-action-games{
+    border-radius: 50px;
+    background-color: #FFF;
+    color: #0B0223;
+    font-size: 1.25rem;
+    padding: 28px 15px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0;
+    align-items: center;
+    
+}
 /* footer styles */
 .footer{
     text-align: center;
@@ -175,6 +194,7 @@ main{
 
 .our-story-container>ul{
     display: flex;
+    justify-content: space-evenly;
     
 }
 
@@ -226,6 +246,8 @@ main{
     nav, 
     .play-like-container,
     .online-games-card-container
+    .action-games-container
+    .our-story-container
     {
         flex-direction: column;
     }
@@ -248,7 +270,11 @@ main{
     header{
         padding: 50px;
     }
-    nav, .play-like-container {
+    nav, 
+    .play-like-container,
+    .action-games-container
+    .our-story-container
+    {
         flex-direction: column;
     }
 }
